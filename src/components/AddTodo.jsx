@@ -11,12 +11,12 @@ const AddTodo = () => {
     dispatch(addTodo(input));
     setInput("");
   };
-  return (
+  return ( 
     <>
       <div>
         <form onSubmit={addHandler}>
           <input
-            className=" border"
+            className="border"
             type="text"
             placeholder="Add Todo"
             value={input}
